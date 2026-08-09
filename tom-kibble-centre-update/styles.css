@@ -337,3 +337,38 @@ footer.site a { color: #fff; }
   margin-top: 0.45rem;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
 }
+
+
+/* about-page portrait */
+figure.portrait {
+  float: right;
+  width: 220px;
+  margin: 0 0 1rem 1.4rem;
+}
+figure.portrait img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid var(--line);
+}
+figure.portrait figcaption {
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-top: 0.4rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+}
+@media (max-width: 44rem) {
+  figure.portrait { float: none; width: 100%; max-width: 280px; margin: 0 auto 1rem; }
+}
+
+
+/* callout box */
+.callout {
+  border: 1px solid var(--line);
+  border-left: 6px solid var(--accent);
+  background: var(--band);
+  padding: 0.8rem 1.1rem;
+  margin: 1.2rem 0;
+  max-width: 46rem;
+}
+.callout p { margin: 0; }
