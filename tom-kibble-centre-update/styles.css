@@ -321,3 +321,19 @@ footer.site a { color: #fff; }
 .table-scroll { overflow-x: auto; }
 .table-scroll:focus-visible { outline: 3px solid #ffbf47; }
 .table-scroll table { min-width: 38rem; }
+
+
+/* home page photograph */
+.hero-photo { margin: 1.8rem 0 0.4rem; }
+.hero-photo img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid var(--line);
+}
+.hero-photo figcaption {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-top: 0.45rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+}
