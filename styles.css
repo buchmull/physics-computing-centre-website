@@ -339,6 +339,29 @@ footer.site a { color: #fff; }
 }
 
 
+/* about-page portrait */
+figure.portrait {
+  float: left;
+  width: 220px;
+  margin: 0.3rem 1.4rem 1rem 0;
+}
+figure.portrait img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid var(--line);
+}
+figure.portrait figcaption {
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-top: 0.4rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+}
+@media (max-width: 44rem) {
+  figure.portrait { float: none; width: 100%; max-width: 280px; margin: 0 auto 1rem; }
+}
+
+
 /* callout box */
 .callout {
   border: 1px solid var(--line);

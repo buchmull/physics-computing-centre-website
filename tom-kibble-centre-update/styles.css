@@ -341,9 +341,9 @@ footer.site a { color: #fff; }
 
 /* about-page portrait */
 figure.portrait {
-  float: right;
+  float: left;
   width: 220px;
-  margin: 0 0 1rem 1.4rem;
+  margin: 0.3rem 1.4rem 1rem 0;
 }
 figure.portrait img {
   width: 100%;
