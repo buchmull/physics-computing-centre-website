@@ -22,6 +22,9 @@ Pages (Settings > Pages > Deploy from a branch > main, / root) to publish it.
 
 ## Editing rules
 
+- Every page carries a noindex robots meta tag while the site is a
+  draft. Remove it from all pages at launch, and not before.
+
 - brief/Website_Copy_and_Page_Structure.docx is the authoritative wording.
   Change the brief first, then the site.
 - Double-bracketed items, [[APPROVED NAME]], [[SHORT FORM]] and
